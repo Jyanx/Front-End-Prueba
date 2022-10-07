@@ -1,0 +1,72 @@
+.Header{
+background-color: #00AF1C;
+padding: 25px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-radius: 10%;
+}
+
+.Header ul{
+    display: flex;
+
+}
+
+.Header li{
+
+margin-left: 2rem;
+list-style: none;
+}
+.Header a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.LOGO{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFF;
+    }
+    .Header nav a{
+        font-size: 15px;
+    }
+    .home div{
+padding: 45px;
+display: flex;
+
+    }
+    .home h2{
+        color: #3B06D2;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 2rem;
+    }
+    .warp{
+        margin: 15px;
+    }
+    .home p{
+        margin-bottom: 35px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .home div img{
+        margin: 20px;
+        border-radius: 8px;
+    }
+
+    .servicios div{
+        padding: 45px;
+        display: flex;
+    }
+    .servicios h2{
+        color:  #D206B2;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 2rem;
+    }
+    .servicios div img{
+        margin: 20px;
+        border-radius: 8px;
+    }
+    .servicios p{
+        margin-bottom: 35px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
