@@ -1,0 +1,80 @@
+.texto-animado{
+    animation-name: texto-volador;
+    animation-duration: 10s;
+    animation-iteration-count: 5;
+    border: solid;
+}
+@keyframes texto-volador{
+    from{
+        margin-left: 100%;
+        width: 350px;
+        background-color: aqua;
+        border: none;
+    }
+ to{
+margin-left: -100%;
+background-color: red;
+color: white;
+ }
+}
+
+.imagen-animada{
+animation-name: image-resize;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+}
+
+@keyframes image-resize{
+    from{
+        width: 200px;
+        height: 100px;
+    }
+    to{
+        width: 400px;
+        height: 200px;
+    }
+}
+.box1{
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    animation-name: box-animation;
+    animation-duration: 10s;
+}
+@keyframes box-animation{
+    0%{
+        background-color: black;
+    }
+    10%{
+        background-color: aqua;
+    }
+    30%{
+        background-color: azure;
+    }
+    50%{
+        background-color: blue;
+    }
+    80%{
+        background-color: antiquewhite;
+    }
+    100%{
+        background-color: blueviolet;
+    }
+}
+.ball1{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: chocolate;
+    animation-name: ball-animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes ball-animation{
+    from{
+        transform: translateY(0px);
+    }
+to{
+    transform: translateY(-400px);
+}
+}
