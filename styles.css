@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 5px;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+width: 100%;
+background-color: #477BA5;
+}
+.header{
+    width: 100%;
+display: flex;
+justify-content: flex-end;
+position: fixed;
+top: 0;
+}
+
+.letras ul {
+    display: flex;
+    list-style: none;
+}
+.letras ul li{
+    padding: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.banner{
+    display: flex;
+    justify-content: space-around;
+ margin: 50px 0px 20px 0px;
+}
+.banner img{
+    border-radius: 50%;
+}
+.title{
+    font-size: 2em;
+}
+.resumen{
+    width: 45px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+.btn1{
+    width: 400px;
+    background-color: brown;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 6px;
+    box-shadow: 0 15px 25px red;
+    animation-name: boton1;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+@keyframes boton1{
+    from{
+       margin-left: 100%;
+    }
+    to{
+      margin-left: -0.7%;
+    }
+}
+.btn1:hover{
+background-color: yellow;
+color: black;
+font-weight: bold;
+}
+.title-section{
+    margin-left: 20rem;
+    font-size: 30px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+.card div{
+    margin-left: 20px;
+
+}
+.card div img{
+    width: 20rem;
+    height: 100px;
+    border-radius: 8px;
+    box-shadow: 0 15px 25px;
+}
+.card div img:hover{
+    box-shadow: 0 25px 30px red;
+
+}
