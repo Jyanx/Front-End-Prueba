@@ -78,3 +78,35 @@ to{
     transform: translateY(-400px);
 }
 }
+.lineas{
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    font-size: 24px;
+    white-space: nowrap;
+    border-right: 2px solid black;
+    transform: translateY(-50%);
+    overflow: hidden;
+}
+.texto-animad{
+    animation: texto-animad 5s steps(144) 1s normal
+    both,
+    cursor 0.5 steps (50) infinite normal;
+    animation-iteration-count: infinite;
+}
+@keyframes texto-animad{
+    from{
+        width: 0;
+    }
+    to{
+        width: 600px;
+    }
+}
+@keyframes cursor{
+    from{
+        border-right-color: red;
+    }
+    to{
+        border-right-color: transparent;
+    }
+}
