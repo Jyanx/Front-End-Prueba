@@ -62,3 +62,25 @@ body {
 .Icons2 {
     border-radius: 60%;
 }
+@media only screen and (max-width: 600px){
+ .footer1 {
+        background-color: hsla(5, 16%, 61%, );
+        display: flex;
+        justify-content: space-between;
+}
+.Photo-profile {
+    border-radius: 50%;
+    max-width: 100px;
+    max-height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.Icons {
+    display: flex;
+    transition: all 0.5s;
+    max-width: 20%;
+    max-height: 20%;
+    position: center;
+    
+}
+}

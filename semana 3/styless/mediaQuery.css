@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: blue;
+}
+
+.Section-primary{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Section-primary div{
+    width: 100px;
+    height: 100px;
+    border: solid;
+}
+.box-one{
+    background-color: yellow;
+}
+.box-two{
+    background-color: red;
+}
+.box-three{
+    background-color: purple;
+}
+@media only screen and (min-width: 480px){
+body{
+    background-color: green;
+}
+.box-three{
+    background-color: brown;
+}
+.box-one{
+    background-color: aquamarine;
+}
+.Section-primary div{
+    width: 50px;
+    height: 50px;
+    border: solid;
+}
+.Section-primary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+}
