@@ -70,3 +70,125 @@ display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
+    .main-content {
+        background: white;
+        margin-top: 99px;
+    
+    }
+    
+        .main-content header,
+        .main-content .content 
+        {
+            padding: 2rem;
+            
+        }
+     
+         .d-content {
+    
+               display: flex;
+               flex-wrap: wrap;
+               justify-content: center;
+              
+         }
+          
+         
+        img {
+            max-width: 100%;
+            height: auto;
+            padding: 1%;
+          }
+    
+    .form {
+        width: 95%;
+        margin: 1rem auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }    
+        input {
+    
+    
+            width: 80%;
+            height: 20%;
+            padding: 1rem;
+            border: solid 1px #b3aca7;
+            outline: none;
+            transition: all 0.3s ease-in-out;
+    
+          }
+          
+          input:hover {
+            background: #e6fffc;
+       
+          }
+          
+          textarea {
+            margin-top: 1%;
+            width: 90%;
+            padding: 1rem;
+            padding-top: 2%;
+            
+            background: transparent;
+            outline: none;
+            
+            color: #363636;
+            
+            border: solid 1px #b3aca7;
+            
+            transition: all 0.3s ease-in-out;
+    
+          }
+          
+          textarea:hover {
+            background: #e6fffc;
+    
+          }
+          
+          .submit {
+            width: 50%;
+            max-width: auto;
+            color: rgb(255, 255, 255);
+            background-color: #00AF1C;
+    
+            outline:none;
+            cursor: pointer;
+    
+    
+          }
+          
+          .submit:hover {
+            background: #008d2a;
+          }
+    
+    
+    .article-home{
+        color: #3B06D2;
+    }
+    .article-servicios{
+        color: #D206B2;
+    }
+    .article-portafolio{
+        color: #AAD206;
+    }
+    
+    .article-contacto{
+        color: #a1005e;
+    }
+    
+    
+    .text-footer {
+        background: #00AF1C;
+        color: yellow;
+        text-align: center;
+        padding: 15px;
+        display:flex;
+        justify-content: space-between;
+    }
+        .text-footer p {
+            margin: 0;
+        }
+        
+        .text-footer a {
+            color: yellow;
+        }             
