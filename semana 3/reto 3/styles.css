@@ -65,38 +65,36 @@ h1{
    font-weight: bold;
    color: #fff
 }
-.Mis-skills .container {
-    background-color: white;
-    border-radius: 25px;
-    height: 18px;
-    width: 50%;
-    display:flex;
-    align-content: center;
-}
+
 .Mis-skills{
     padding: 30px 40px 70px 40px;
     background-color: #9022FF;
     width: 100%;
 }
+.skills-list {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.skills-list progress{
+    align-items: center;
+    display: inline-block;
+    height: 1em;
+    width: 10em;
+    flex-wrap: wrap;
+    padding: 10px;
+}
 .Mis-skills h2{
     text-align: center;
-    font-size: 1,5rem;
+    font-size: 1.5rem;
 }
-.Mis-skills .container .skill{
-    background-color: #57EFF9;
-    border-radius: 25px;
-    width: 80%;
-    display: flex;
-    
+.skills-list .list-1 {
+    font-size: 20px;
 }
-.text p{
-font-family: Arial, Helvetica, sans-serif;
-margin: 15px;
+.skills-list .list-2 {
+    font-size: 20px;
 }
-.Mis-skills .columna {
-    display: flex;
-}
-
 .portafolio{
     padding: 34px 176px 94px;
     background-color: #ffd233;
