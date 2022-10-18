@@ -1,0 +1,24 @@
+:root{
+    --primary-theme-color:#20232A;
+    --secondary-theme-color: #445adb;
+    --primary-text-color: #fff;
+    --primary-font-family: "Arial";
+    --padding-section: 1.5rem;
+    --padding-container: 1.5rem;
+    --max-width-container: 640px;
+    --letter-color-1: #FF8232;
+    --letter-color-2: #8F23F2;
+    --letter-color-3: #bae656;
+    --letter-color-4: #4e6e01;
+    --letter-color-5: #26a38e;
+    --letter-color-6: #6523a3;
+    --letter-color-7: #ee2583;
+}
+
+@media (min-width: 760px){
+    :root{
+        --padding-section: 2rem;
+        --padding-container: 0.75rem;
+        --max-width-container: 1024px;
+        --color-back: red;
+    }}
