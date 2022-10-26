@@ -1,0 +1,55 @@
+//Esta es la forma de importar : @Import
+//Una vez importado ya se puede utilizar las variables
+
+@import "./variables.scss";
+body{
+    background-color: $color-principal;
+}
+.Cuadrado{
+    background-color: $color-red;
+    padding: $padding-1;
+}
+
+@mixin alertas($bg: blue,$color-text: #fff){
+    background-color: $bg;
+    padding: $padding-1;
+    border-radius: $padding-1;
+    color: $color-text;
+    margin-bottom: $padding-1;
+}
+
+.Success{
+    //En vez de hacer estilos llamo al mixin
+    @include alertas;
+}
+
+.Info{
+    font-size: 25px;
+    @include alertas($bg: rgb(38,121,223),$color-text:#000);
+}
+
+@mixin Indx($bg: yellow,$color-text: #000){
+    background-color: $bg;
+    padding: $padding-2;
+    border-radius: $padding-2;
+    color: $color-text;
+    margin-bottom: $padding-2;
+    font-size: 30px
+}
+
+.Home , .Index , .Port{
+    @include Indx;
+}
+@mixin generate-icons($nombre,$icon,$color,$size){
+    .div-icon-#{$name}{
+        background: url ("./src/#{$icon}");
+        border:solid 2px $color;
+        background-size: cover;
+        width: $size;
+        height: $size;
+    }
+}
+
+@include generate-icons("phone","telefono.jpg",rgb(252,135,143), 400px);
+@include generate-icons("mail","mail.png",rgb(252,135,143), 400px);
+@include generate-icons("laptop","laptop.jpg",rgb(252,135,143), 400px);

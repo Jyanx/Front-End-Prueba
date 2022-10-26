@@ -1,0 +1,34 @@
+body {
+  background-color: rgb(109, 219, 174);
+}
+
+.Cuadrado {
+  background-color: red;
+  padding: 10px;
+}
+
+.Success {
+  background-color: blue;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.Info {
+  font-size: 25px;
+  background-color: rgb(38, 121, 223);
+  padding: 10px;
+  border-radius: 10px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.Home, .Index, .Port {
+  background-color: yellow;
+  padding: 20px;
+  border-radius: 20px;
+  color: #000;
+  margin-bottom: 20px;
+  font-size: 30px;
+}/*# sourceMappingURL=main.css.map */
