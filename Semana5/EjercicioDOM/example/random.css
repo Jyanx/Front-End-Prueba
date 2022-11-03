@@ -1,0 +1,47 @@
+:root{
+    --clr-primary-1:hsl(205,86%,17%);
+    --clr-primary-2:hsl(205,86%,27%);
+    --clr-primary-3:rgb(32, 73, 102);
+    --clr-primary-4:rgb(17, 141, 230);
+    --clr-primary-5:rgb(27, 117, 182);
+    --clr-primary-6:rgb(8, 114, 189);
+    /*--------------------------------*/
+    --clr-grey-1: hsl(209,58%,30%);
+    --clr-grey-2: hsl(209,48%,30%);
+    --clr-grey-3: hsl(209,38%,30%);
+    --clr-grey-4: hsl(209,28%,30%);
+
+    --clr-black: #000;
+    --ff-primary: "Roboto";
+    --transition: all 0.3s linear;
+    --spacing: 0.25rem;
+    --radius: 0.5rem;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--clr-grey-1);
+    color: var(--clr-primary-1);
+    line-height: 1.5rem;
+    font-size: 0.875rem;
+}
+h2{
+    font-size:2rem;
+}
+main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    font-family: var(--ff-primary);
+    text-transform: uppercase;
+    background: transparent;
+    color: var(--clr-black);
+    cursor: pointer;
+}
+.btn:hover{
+    color: var(--clr-grey-4)
+
+}
